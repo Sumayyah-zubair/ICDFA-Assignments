@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-09T15:24:47.516357",
+  "failures": [
+    {
+      "category": "Incident Detection",
+      "description": "An attack scenario was recorded; successful exploitation was not demonstrated",
+      "impact": "Monitoring and alerting effectiveness still needs verification",
+      "recommendation": "Implement monitoring, alerting, and incident-response procedures"
+    },
+    {
+      "category": "Policy Implementation",
+      "description": "Patch management policy may not be effectively implemented",
+      "impact": "Critical vulnerabilities may remain unremediated",
+      "recommendation": "Assign ownership, deadlines, and verification for patching"
+    },
+    {
+      "category": "Security Architecture",
+      "description": "Network segmentation control is not recorded as implemented",
+      "impact": "A compromised service could potentially reach other services",
+      "recommendation": "Restrict inter-service access using least-privilege network rules"
+    },
+    {
+      "category": "Authentication and Access Control",
+      "description": "Database security control is not recorded as implemented",
+      "impact": "Weak credentials or excessive privileges could increase risk",
+      "recommendation": "Use strong credentials and least-privilege database accounts"
+    }
+  ],
+  "summary": {
+    "total_failures": 4,
+    "categories": {
+      "Incident Detection": 1,
+      "Policy Implementation": 1,
+      "Security Architecture": 1,
+      "Authentication and Access Control": 1
+    }
+  }
+}

@@ -11,6 +11,14 @@
     {
       "name": "Incident Response Policy",
       "description": "Define procedures for detecting, reporting, and responding to incidents."
+    },
+    {
+      "name": "Security Governance Oversight",
+      "description": "Defines security roles, responsibilities, escalation, and review"
+    },
+    {
+      "name": "Security Governance Oversight",
+      "description": "Defines security roles, responsibilities, escalation, and review"
     }
   ],
   "controls": [
@@ -25,6 +33,46 @@
     {
       "name": "Network Segmentation",
       "description": "Restrict unnecessary communication between network components."
+    },
+    {
+      "name": "Automated Patch Management",
+      "description": "Track, prioritise, test, and verify security patches"
+    },
+    {
+      "name": "Network Segmentation",
+      "description": "Restrict inter-service connectivity to required traffic"
+    },
+    {
+      "name": "Database Security",
+      "description": "Use strong authentication and least-privilege database access"
+    },
+    {
+      "name": "Security Monitoring",
+      "description": "Record monitoring checks and establish alert review procedures"
+    },
+    {
+      "name": "Executive Security Oversight",
+      "description": "Periodic review of risks, metrics, and remediation status"
+    },
+    {
+      "name": "Automated Patch Management",
+      "description": "Track, prioritise, test, and verify security patches"
+    },
+    {
+      "name": "Network Segmentation",
+      "description": "Restrict inter-service connectivity to required traffic"
+    },
+    {
+      "name": "Database Security",
+      "description": "Use strong authentication and least-privilege database access"
+    },
+    {
+      "name": "Security Monitoring",
+      "description": "Record monitoring checks and establish alert review procedures"
+    },
+    {
+      "name": "Executive Security Oversight",
+      "description": "Periodic review of risks, metrics, and remediation status"
     }
   ],
   "risks": [

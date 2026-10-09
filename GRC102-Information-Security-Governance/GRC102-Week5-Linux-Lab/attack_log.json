@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-09T15:23:39.059918",
+  "attack_type": "Struts S2-045 attack scenario simulation",
+  "target": "web_server",
+  "success": false,
+  "simulation_only": true,
+  "data_accessed": "None; no data was accessed or exfiltrated",
+  "records_affected": 0,
+  "http_status": 200,
+  "note": "This script records a simulated incident; it does not exploit the vulnerability."
+}
